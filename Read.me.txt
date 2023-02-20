@@ -1,0 +1,9 @@
+Пример запуска:
+>python rutracker.py "Programming book" --no-download -c 10
+	    		    или
+>python rutracker.py "Programming book" --no-run-torrent -c 5
+
+Аргументы:
+--c    			#сколько запросов?
+--no-download 		#только поиск, без скачивания
+--no-run-torrent	#скачать, поместив в downloads
